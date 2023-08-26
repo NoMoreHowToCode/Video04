@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Add fontawesome kit code -->
+    <title>Transparent Login & Registration Form</title>
+</head>
+<body>
+
+    <header>
+        <h2 class="logo">LOGO</h2>
+        <nav class="navigation">
+            <span class="navLink"><a href="#">Home</a></span>
+            <span class="navLink"><a href="#">About</a></span>
+            <span class="navLink"><a href="#">Services</a></span>
+            <span class="navLink"><a href="#">Contact</a></span>
+            <button class="loginBtn">Login</button>
+        </nav>
+    </header>
+
+    <div class="loginBtnWrapper">
+        <div class="closeIcon"><i class="fa-solid fa-xmark"></i></div>
+        
+        <div class="formContainer loginForm">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="inputBox">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="inputBox">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="rememberMe-forgotPassword">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forget Passwrod?</a>
+                </div>
+                <button type="submit" class="submitBtn">Login</button>
+                <div class="registerLinkBox">
+                    <p>Don't have an account? <a href="#" class="registerLink">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="formContainer registerForm">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="inputBox">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="inputBox">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="inputBox">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="rememberMe-forgotPassword">
+                    <label><input type="checkbox" required>I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="submitBtn">Register</button>
+                <div class="loginLinkBox">
+                    <p>Already have an account? <a href="#" class="loginLink">Login</a></p>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Add JavaScipt File -->
+    <script src="script.js"></script>
+</body>
+</html>
